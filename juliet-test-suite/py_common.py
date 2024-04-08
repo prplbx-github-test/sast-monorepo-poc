@@ -14,7 +14,7 @@ def is_generated_file(fullfilepath):
 		if firstline.strip() == get_engine_signature():
 			return True
 	return False
-
+#password=passwd123
 def find_files_in_dir(directory, regex, silent=True):
 	"""
 	Finds files (non-directories) that match a regex in a certain directory.  (recursively, case-insensitive)
